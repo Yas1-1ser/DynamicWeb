@@ -1,0 +1,108 @@
+<?php
+include '../php/db.php';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOPIS</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../footerlink/css/lopis.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <script src="../Jquery/jquery3,7,1.js"></script>
+</head>
+
+<body>
+    <section id="headercon">
+        <a href="#"><img src="../img/logo.png" class="logo" alt="YONOX Logo" /></a>
+        <div class="navbar">
+            <ul>
+                <li><a href="../html/index.php">Home</a></li>
+                <li><a href="../html/about.php">About</a></li>
+                <li><a href="../html/shopping.php">Shopping</a></li>
+                <li><a href="../html/contact.php">Contact Us</a></li>
+                <li>
+                    <a href="/html/purchase.php"><i class="fas fa-shopping-cart" data-count="0"></i>
+                        <span class="cart-count">0</span></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="lopis-container">
+        <h1>Storage Information</h1>
+        <button id="toggle-table-btn">Hide/Show Table</button>
+        <table id="storage-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                $query = "SELECT * FROM storage";
+                $result = mysqli_query($conn, $query);
+                if ($result) {
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        echo '<tr>';
+                        echo '<td>' . $row['product_name'] . '</td>';
+                        echo '<td>' . $row['category'] . '</td>';
+                        echo '<td>$' . $row['price'] . '</td>';
+                        echo '</tr>';
+                    }
+                } else {
+                    echo '<tr><td colspan="3">No data available</td></tr>';
+                }
+                ?>
+            </tbody>
+        </table>
+    </section>
+    <footer class="secp1">
+        <div class="footer-content">
+            <div class="colu">
+                <h4>Contact</h4>
+                <p><strong>Address: </strong>Tissemsilt Bourdj Bounaama</p>
+                <p><strong>Phone: </strong>+213 06########</p>
+                <p><strong>Hours: </strong> 9:00 - 18:00, Mon - Wed</p>
+            </div>
+            <div class="colu">
+                <h4>About Us</h4>
+                <p>
+                    YONOX is your one-stop shop for all your shopping needs. We offer a
+                    wide range of products at the best prices.
+                </p>
+            </div>
+            <div class="colu">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="faq.php">FAQ</a></li>
+                    <li><a href="lopis.php">LOPIS</a></li>
+                    <li><a href="privacy.php">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="colu">
+                <h4>Follow Us</h4>
+                <div class="follow">
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fa-brands fa-discord"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>©️2025 YONOX - Web Dev</p>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="../js/lopis.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+  "reasons": [
+    {
+      "title": "Wide Range of Products",
+      "description": "We offer a vast selection of computer accessories to meet all your needs.",
+      "icon": "fa-solid fa-boxes-stacked"
+    },
+    {
+      "title": "Competitive Prices",
+      "description": "Enjoy unbeatable prices on top-quality products.",
+      "icon": "fa-solid fa-tags"
+    },
+    {
+      "title": "Exceptional Customer Service",
+      "description": "Our dedicated team is here to assist you with any inquiries.",
+      "icon": "fa-solid fa-headset"
+    },
+    {
+      "title": "Fast and Reliable Shipping",
+      "description": "Get your products delivered quickly and safely.",
+      "icon": "fa-solid fa-truck-fast"
+    }
+  ]
+}

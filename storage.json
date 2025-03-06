@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "name": "Logitech Wireless Keyboard",
+      "price": "50",
+      "category": "keyboards"
+    },
+    {
+      "name": "Razer Mechanical Keyboard",
+      "price": "120",
+      "category": "keyboards"
+    },
+    {
+      "name": "Spirit of Gamer Keyboard",
+      "price": "70",
+      "category": "keyboards"
+    },
+    {
+      "name": "Logitech Gaming Mouse",
+      "price": "60",
+      "category": "mice"
+    },
+    {
+      "name": "Razer Gaming Mouse",
+      "price": "70",
+      "category": "mice"
+    },
+    {
+      "name": "Spirit of Gamer Wireless Mouse",
+      "price": "40",
+      "category": "mice"
+    },
+    {
+      "name": "AOC 4K Monitor",
+      "price": "350",
+      "category": "monitors"
+    },
+    {
+      "name": "Dell UltraSharp Monitor",
+      "price": "400",
+      "category": "monitors"
+    },
+    {
+      "name": "ASUS ROG Swift Monitor",
+      "price": "450",
+      "category": "monitors"
+    },
+    {
+      "name": "MSI Optix Monitor",
+      "price": "320",
+      "category": "monitors"
+    },
+    {
+      "name": "LG UltraFine Monitor",
+      "price": "380",
+      "category": "monitors"
+    },
+    {
+      "name": "Samsung Odyssey Monitor",
+      "price": "420",
+      "category": "monitors"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+#contact-form {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+    margin-left: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  
+  
+  
+  #contact-form button {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  #contact-form button:active {
+    background-color: #004085;
+  }
+
+
+
+#contact-form label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px; /* Add space between label and input */
+    display: block; /* Ensure label is a block element */
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    font-size: 14px; /* Make the text inside inputs smaller */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Add space between inputs */
+}
+
+/* ...existing code... */

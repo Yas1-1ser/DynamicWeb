@@ -1,0 +1,115 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #333;
+}
+
+#about {
+  padding: 20px 20px; /* Reduced padding */
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto; /* Adjust height */
+  animation: fadeIn 2s ease-in-out; /* Add fade-in effect */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#about .container {
+  margin: 0;
+}
+
+#about h1 {
+  font-size: 2.5em; /* Reduced font size */
+  margin-bottom: 15px; /* Reduced margin */
+  color: #333;
+  text-align: center;
+  animation: slideInFromLeft 1.5s ease-in-out; /* Add slide-in effect */
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#about p {
+  font-size: 1em; /* Reduced font size */
+  line-height: 1.5; /* Adjusted line height */
+  margin-bottom: 15px; /* Reduced margin */
+  color: #555;
+  text-align: center;
+  animation: slideInFromRight 1.5s ease-in-out; /* Add slide-in effect */
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.containerinfo {
+  background-color: #f9f9f9;
+  padding: 20px; /* Reduced padding */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  animation: zoomIn 1.5s ease-in-out; /* Add zoom-in effect */
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.containerinfo h1 {
+  font-size: 2.5em; /* Reduced font size */
+  color: #333;
+  margin-bottom: 15px; /* Reduced margin */
+}
+
+.containerinfo p {
+  font-size: 1em; /* Reduced font size */
+  line-height: 1.5; /* Adjusted line height */
+  color: #555;
+  margin-bottom: 15px; /* Reduced margin */
+}
+
+.containerinfo .icon {
+  font-size: 1.5em; /* Reduced font size */
+  margin-bottom: 10px;
+  color: #67729D;
+}

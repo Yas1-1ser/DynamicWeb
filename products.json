@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "name": "Logitech Wireless Keyboard",
+      "description": "Experience the freedom of wireless typing with Logitech's latest keyboard.",
+      "price": "50",
+      "category": "keyboards",
+      "brand": "Logitech",
+      "image": "../img/logitech_keyboard.jpg"
+    },
+    {
+      "name": "Razer Mechanical Keyboard",
+      "description": "Razer's mechanical keyboard for a superior typing experience.",
+      "price": "120",
+      "category": "keyboards",
+      "brand": "Razer",
+      "image": "../img/razer_keyboard.jpg"
+    },
+    {
+      "name": "Spirit of Gamer Keyboard",
+      "description": "Spirit of Gamer's keyboard for a reliable typing experience.",
+      "price": "70",
+      "category": "keyboards",
+      "brand": "Spirit of Gamer",
+      "image": "../img/sog_keyboard.jpg"
+    },
+    {
+      "name": "Logitech Gaming Mouse",
+      "description": "Logitech's high-precision gaming mouse for an enhanced gaming experience.",
+      "price": "60",
+      "category": "mice",
+      "brand": "Logitech",
+      "image": "../img/logitech_mouse.jpg"
+    },
+    {
+      "name": "Razer Gaming Mouse",
+      "description": "Enhance your gaming experience with Razer's high-precision gaming mouse.",
+      "price": "70",
+      "category": "mice",
+      "brand": "Razer",
+      "image": "../img/razer_mouse.jpg"
+    },
+    {
+      "name": "Spirit of Gamer Wireless Mouse",
+      "description": "Spirit of Gamer's wireless mouse for a clutter-free workspace.",
+      "price": "40",
+      "category": "mice",
+      "brand": "Spirit of Gamer",
+      "image": "../img/sog_mouse.jpg"
+    },
+    {
+      "name": "AOC 4K Monitor",
+      "description": "AOC's 4K monitor for stunning visuals and superior performance.",
+      "price": "350",
+      "category": "monitors",
+      "brand": "AOC",
+      "image": "../img/aoc_monitor.jpg"
+    },
+    {
+      "name": "Dell UltraSharp Monitor",
+      "description": "Dell's UltraSharp monitor for professional-grade color accuracy.",
+      "price": "400",
+      "category": "monitors",
+      "brand": "Dell",
+      "image": "../img/dell_monitor.jpg"
+    },
+    {
+      "name": "ASUS ROG Swift Monitor",
+      "description": "ASUS's ROG Swift monitor for an immersive gaming experience.",
+      "price": "450",
+      "category": "monitors",
+      "brand": "ASUS",
+      "image": "../img/asus_monitor.jpg"
+    },
+    {
+      "name": "MSI Optix Monitor",
+      "description": "MSI's Optix monitor for high refresh rates and smooth gameplay.",
+      "price": "320",
+      "category": "monitors",
+      "brand": "MSI",
+      "image": "../img/msi_monitor.jpg"
+    },
+    {
+      "name": "LG UltraFine Monitor",
+      "description": "LG's UltraFine monitor for exceptional clarity and detail.",
+      "price": "380",
+      "category": "monitors",
+      "brand": "LG",
+      "image": "../img/lg_monitor.jpg"
+    },
+    {
+      "name": "Samsung Odyssey Monitor",
+      "description": "Samsung's Odyssey monitor for a curved, immersive viewing experience.",
+      "price": "420",
+      "category": "monitors",
+      "brand": "Samsung",
+      "image": "../img/samsung_monitor.jpg"
+    }
+  ]
+}
